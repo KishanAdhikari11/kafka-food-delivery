@@ -8,7 +8,6 @@ async function init(){
         console.log(`[${topic}] PART:${partition}-${message.value.toString()}`);
         },
     });
-    // await consumer.disconnect();
 
 }
 init();
